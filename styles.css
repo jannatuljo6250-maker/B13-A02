@@ -2,3 +2,83 @@
     margin: 0;
     padding: 0;
 }
+nav{
+    width: 100%;
+    color: azure;
+    background-color: #412567;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+     margin-left: 80px;
+}
+.gradient-text{
+    /* background: radial-gradient(yellow,pink,blue); */
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 30px;
+}
+.btn{
+    width: 120px;
+    color: azure;
+    align-content: center;
+    /* justify-content: center; */
+    background: linear-gradient(to right ,red, yellow,blue, pink, rgb(225, 0, 255));
+    /* border: 2px; */
+    margin-right: 80px;
+    padding: 5px;
+    border-radius: 10px ;
+}
+
+#banner-container{
+    background: url(./assets/hero-bg.png);
+    width: 100%;
+    justify-items: center;
+    color: aliceblue;
+    margin-bottom: 70px;
+    
+}
+.box .back{
+    width: 40%;
+    padding-top: 70px;
+    margin-right: 40px;
+      z-index: 1;
+}
+.box .front{
+    top: -270px;
+    left: 120px;
+     position: relative;
+}
+.banner-text{
+    position: relative;
+    top: -170px;
+    left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text>h1{
+font-weight: 700;
+font-size: 60px;
+}
+.btn-1{
+    width: 180px;
+    height: 35px;
+    padding: auto;
+    background: linear-gradient(to right,red,pink,yellow,blue);
+    justify-content:space-between ;
+    border-radius: 20px;
+}
+.btn-2{
+    color:#00FF88 ;
+    font-size: 16px;
+    width: 150px;
+    height: 35px;
+    padding: aut0;
+    border-radius: 20px;
+    background-color: blue;
+}
