@@ -43,6 +43,11 @@ nav ul{
     margin-bottom: 70px;
     
 }
+.box .back .new{
+    position: relative;
+    right: -250px;
+    top: 40px;
+}
 .box .back{
     width: 40%;
     padding-top: 70px;
@@ -97,13 +102,86 @@ font-size: 60px;
 .about-heading{
     font-weight: 700;
     justify-content: center;
+    padding-bottom: 25px;
 }
 .div-p {
     gap: 90px;
+
 }
 .div-p div h1{
     color:#00FF88;
 }
 .div-p div p{
     color: aliceblue;
+}
+#why-section{
+    width: 100%;
+ justify-items: center;
+}   
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(3,250px);
+    gap: 20px;
+}
+
+.icon-container .mid-1{
+   grid-row: span 2;
+       background-color: #351165;
+    padding-top: 30px;
+    border-radius: 30px;
+   padding-left: 20px;
+  
+}
+.icon-container .mid-2{
+    grid-column: span 2;
+         background-color: #351165;
+    padding-top: 30px;
+    border-radius: 30px;
+   padding-left: 20px;
+}
+.icon-container .mid-3{
+        grid-column: span 2;
+         background-color: #351165;
+    padding-top: 30px;
+    border-radius: 30px;
+   padding-left: 20px;
+}
+.icon-container .mid-4{
+         grid-column: span 2;
+         background-color: #351165;
+    padding-top: 30px;
+    border-radius: 30px;
+   padding-left: 20px;
+}
+.icon-container .mid-5{
+          background-color: #351165;
+    padding-top: 30px;
+    border-radius: 30px;
+   padding-left: 20px;
+}
+main{
+   background-color: #1A0B2E;
+    color: aliceblue;
+    padding-top: 50px;
+    justify-content: center;
+     padding-bottom: 50px;
+}
+#song-container{
+    display: flex;
+    border-radius: 30px;
+    gap: 20px;
+    justify-content: space-around;
+     padding-bottom: 40px;
+     padding-left: 100px;
+     padding-right:100px;
+}
+ h3,p {
+    background-color: #351165;
+    border-radius: 15px;
+   
+}
+
+@media screen and (max-width:576px) {
+    
 }
