@@ -5,7 +5,7 @@
 nav{
     width: 100%;
     color: azure;
-    background-color: #412567;
+    background-color: #1A0B2E;
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -69,9 +69,11 @@ font-size: 60px;
     width: 180px;
     height: 35px;
     padding: auto;
+    margin-top: 20px;
+    margin-right: 10px;
     background: linear-gradient(to right,red,pink,yellow,blue);
     justify-content:space-between ;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .btn-2{
     color:#00FF88 ;
@@ -81,4 +83,27 @@ font-size: 60px;
     padding: aut0;
     border-radius: 20px;
     background-color: blue;
+        
+}
+/* about section */
+#about-container{
+    width: 100%;
+    color: antiquewhite; 
+    padding-left: 100px;
+    background-color: #1A0B2E;
+    align-items: center;
+    justify-items: center;
+}
+.about-heading{
+    font-weight: 700;
+    justify-content: center;
+}
+.div-p {
+    gap: 90px;
+}
+.div-p div h1{
+    color:#00FF88;
+}
+.div-p div p{
+    color: aliceblue;
 }
